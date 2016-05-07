@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://toolinbox.net/iHosts.html</loc>
+    <loc>http://toolinbox.net/iHostsMacAppStore.html</loc>
     
-    <lastmod>2016-05-07T09:59:12.000Z</lastmod>
+    <lastmod>2016-05-07T13:53:54.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://toolinbox.net/hello-world.html</loc>
+    <loc>http://toolinbox.net/clip/index.html</loc>
     
-    <lastmod>2016-05-07T09:48:53.000Z</lastmod>
+    <lastmod>2016-05-07T13:36:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/timer/index.html</loc>
+    
+    <lastmod>2016-05-07T13:34:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/iHosts/index.html</loc>
+    
+    <lastmod>2016-05-07T13:34:43.000Z</lastmod>
     
   </url>
   
