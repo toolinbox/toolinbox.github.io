@@ -5,25 +5,29 @@
     
   <url>
     <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
-    <lastmod>2016-05-23T14:50:38.000Z</lastmod>
+    <lastmod>2016-05-23T14:53:14.000Z</lastmod>
     <data>
         <display>
         <title>在 iPic 中添加七牛云</title>
         <pubTime>2016-05-23T10:32:16.000Z</pubTime>
         
          
+           
+             
+              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
+          
         </display>
     </data>
     </url>
 
     
   <url>
-    <loc>http://toolinbox.net/iHostsChangeLog.html</loc>
-    <lastmod>2016-05-22T16:22:01.000Z</lastmod>
+    <loc>http://toolinbox.net/iHostsSSPai.html</loc>
+    <lastmod>2016-05-23T14:52:31.000Z</lastmod>
     <data>
         <display>
-        <title>iHosts 更新日志</title>
-        <pubTime>2015-05-03T10:32:16.000Z</pubTime>
+        <title>少数派推荐 iHosts: 在 Mac 上编辑 /etc/hosts 的新工具</title>
+        <pubTime>2016-05-11T13:24:15.000Z</pubTime>
         
          
            
@@ -36,12 +40,12 @@
 
     
   <url>
-    <loc>http://toolinbox.net/iHostsSSPai.html</loc>
-    <lastmod>2016-05-11T13:50:10.000Z</lastmod>
+    <loc>http://toolinbox.net/iHostsChangeLog.html</loc>
+    <lastmod>2016-05-22T16:22:01.000Z</lastmod>
     <data>
         <display>
-        <title>少数派推荐 iHosts: 在 Mac 上编辑 /etc/hosts 的新工具</title>
-        <pubTime>2016-05-11T13:24:15.000Z</pubTime>
+        <title>iHosts 更新日志</title>
+        <pubTime>2015-05-03T10:32:16.000Z</pubTime>
         
          
            
