@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://toolinbox.net/iHosts/iHostsMacAppStore.html</loc>
+    
+    <lastmod>2016-05-23T15:06:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
     
     <lastmod>2016-05-23T14:53:14.000Z</lastmod>
@@ -9,7 +16,7 @@
   </url>
   
   <url>
-    <loc>http://toolinbox.net/iHostsSSPai.html</loc>
+    <loc>http://toolinbox.net/iHosts/iHostsSSPai.html</loc>
     
     <lastmod>2016-05-23T14:52:31.000Z</lastmod>
     
@@ -19,13 +26,6 @@
     <loc>http://toolinbox.net/iHostsChangeLog.html</loc>
     
     <lastmod>2016-05-22T16:22:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/iHostsMacAppStore.html</loc>
-    
-    <lastmod>2016-05-07T13:53:54.000Z</lastmod>
     
   </url>
   
