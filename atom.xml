@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-05-23T14:53:14.000Z</updated>
+  <updated>2016-05-25T15:13:11.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -20,14 +20,19 @@
     <link href="http://toolinbox.net/iPic/AddQiniuImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddQiniuImageHost.html</id>
     <published>2016-05-23T10:32:16.000Z</published>
-    <updated>2016-05-23T14:53:14.000Z</updated>
+    <updated>2016-05-25T15:13:11.000Z</updated>
     
     <content type="html">&lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
 &lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
 &lt;h1 id=&quot;在七牛中添加资源&quot;&gt;&lt;a href=&quot;#在七牛中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在七牛中添加资源&quot;&gt;&lt;/a&gt;在七牛中添加资源&lt;/h1&gt;&lt;p&gt;七牛的数据处理是以 &lt;strong&gt;资源&lt;/strong&gt; 为单位的，这里我们可以简单理解为七牛中的 &lt;strong&gt;文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;这里我创建一个 &lt;strong&gt;test&lt;/strong&gt; 资源。&lt;/p&gt;
-&lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_QQ20160525-20@2x.png&quot; alt=&quot;2016-05-25_QQ20160525-20@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_QQ20160525-10@2x.png&quot; alt=&quot;2016-05-25_QQ20160525-10@2x.png&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;名称&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;主要是方便自己区分多个图床，可以任意取名，比如 &lt;em&gt;我的七牛&lt;/em&gt;&lt;/li&gt;
@@ -40,12 +45,15 @@
 &lt;li&gt;&lt;strong&gt;AccessKey&lt;/strong&gt; 与 &lt;strong&gt;SecretKey&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;可以简单理解为七牛的隐身账户和密码&lt;/li&gt;
 &lt;li&gt;进入 &lt;code&gt;个人面板 &amp;gt; 密钥管理页&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2231231.jpg&quot; alt=&quot;2016-05-25_2231231.jpg&quot;&gt;&lt;/li&gt;
 &lt;li&gt;依次将 AK、SK 中的内容复制到 iPic 对应的 &lt;strong&gt;AccessKey&lt;/strong&gt;、&lt;strong&gt;SecretKey&lt;/strong&gt; 中&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2232311.jpg&quot; alt=&quot;2016-05-25_2232311.jpg&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Http 前缀&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;用于生成上传图片的完成 Http 路径&lt;/li&gt;
 &lt;li&gt;打开刚刚创建的 &lt;strong&gt;test&lt;/strong&gt; 资源，复制 &lt;strong&gt;测试域名&lt;/strong&gt; 中的域名至 iPic 的 Http 前缀中。要注意格式的完整，比如 &lt;em&gt;&lt;a href=&quot;http://o2ka8kdhx.bkt.clouddn.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://o2ka8kdhx.bkt.clouddn.com/&lt;/a&gt;&lt;/em&gt; 就是格式完整的 Http 前缀。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2227311.png&quot; alt=&quot;2016-05-25_2227311.png&quot;&gt;&lt;/li&gt;
 &lt;li&gt;当然，如果你绑定了域名，就可以使用自己的域名。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -53,6 +61,7 @@
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至七牛的图片。&lt;/p&gt;
 &lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
 &lt;h1 id=&quot;使用七牛&quot;&gt;&lt;a href=&quot;#使用七牛&quot; class=&quot;headerlink&quot; title=&quot;使用七牛&quot;&gt;&lt;/a&gt;使用七牛&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的七牛，之后上传的图片就会在七牛图床中。&lt;/p&gt;
+&lt;p&gt;注：本文中的图就是通过上述方式先上传至七牛、再粘贴至 Markdown 编辑器中，确实很方便，大家试试吧。&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -61,8 +70,12 @@
 &lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
 &lt;h1 id=&quot;在七牛中添加资源&quot;&gt;&lt;a href=&quot;#在七牛中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在七牛中添加资源&quot;&gt;&lt;/a&gt;在七牛中添加资源&lt;/h1&gt;&lt;p&gt;七牛的数据处理是以 &lt;strong&gt;资源&lt;/strong&gt; 为单位的，这里我们可以简单理解为七牛中的 &lt;strong&gt;文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;这里我创建一个 &lt;strong&gt;test&lt;/strong&gt; 资源。&lt;/p&gt;
-&lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;br&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_QQ20160525-20@2x.png&quot; alt=&quot;2016-05-25_QQ20160525-20@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;br&gt;
     
     </summary>
     
