@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-05-29T03:25:24.000Z</updated>
+  <updated>2016-05-29T03:33:48.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://toolinbox.net/iPic/iPicIntroduce1.html"/>
     <id>http://toolinbox.net/iPic/iPicIntroduce1.html</id>
     <published>2016-05-29T03:13:17.000Z</published>
-    <updated>2016-05-29T03:25:24.000Z</updated>
+    <updated>2016-05-29T03:33:48.000Z</updated>
     
-    <content type="html">&lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;在博客中插图，你痛吗？&quot;&gt;&lt;a href=&quot;#在博客中插图，你痛吗？&quot; class=&quot;headerlink&quot; title=&quot;在博客中插图，你痛吗？&quot;&gt;&lt;/a&gt;在博客中插图，你痛吗？&lt;/h1&gt;&lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;将文档中的图片保存为临时图片文件&lt;/li&gt;
-&lt;li&gt;打开浏览器，登录七牛&lt;/li&gt;
+&lt;li&gt;打开浏览器，登录图床&lt;/li&gt;
 &lt;li&gt;跳转至文档管理页面&lt;/li&gt;
 &lt;li&gt;上传刚才保存的图片文件&lt;/li&gt;
 &lt;li&gt;复制图片链接&lt;/li&gt;
@@ -33,9 +33,10 @@
 &lt;li&gt;删除刚才创建的临时图片文件&lt;/li&gt;
 &lt;li&gt;…&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;现在再来看看，有了图床神器 iPic 后，有什么美好的事情即将发生：&lt;/p&gt;
+&lt;h1 id=&quot;图床神器-iPic-出场&quot;&gt;&lt;a href=&quot;#图床神器-iPic-出场&quot; class=&quot;headerlink&quot; title=&quot;图床神器 iPic 出场&quot;&gt;&lt;/a&gt;图床神器 iPic 出场&lt;/h1&gt;&lt;p&gt;现在再来看看，有了图床神器 iPic 后，有什么美好的事情即将发生：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/006tNbRwgw1f483m5yk5ig30j60asqv5&quot; alt=&quot;iPic2.gif&quot;&gt;&lt;/p&gt;
-&lt;p&gt;没错，iPic 就是图床神器，带给你从未有过的插图体验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;复制、自动上传、粘贴，搞定！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;没错，这就是图床神器 iPic，带给你从未有过的插图体验。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;体验改进&quot;&gt;&lt;a href=&quot;#体验改进&quot; class=&quot;headerlink&quot; title=&quot;体验改进&quot;&gt;&lt;/a&gt;体验改进&lt;/h1&gt;&lt;p&gt;第一版体验中，大家对 &lt;strong&gt;七牛&lt;/strong&gt; 的呼声很高，于是这版就增加了对 &lt;strong&gt;七牛&lt;/strong&gt; 的支持（&lt;a href=&quot;http://toolinbox.net/iPic/AddQiniuImageHost.html&quot;&gt;在 iPic 中添加七牛教程&lt;/a&gt;）&lt;br&gt;除此以外，这一版本还在一些细节上进行改进。&lt;/p&gt;
 &lt;h2 id=&quot;1-监控-自动上传-状态&quot;&gt;&lt;a href=&quot;#1-监控-自动上传-状态&quot; class=&quot;headerlink&quot; title=&quot;1. 监控 自动上传 状态&quot;&gt;&lt;/a&gt;1. 监控 自动上传 状态&lt;/h2&gt;&lt;p&gt;上一波体验中，有朋友反馈说自动上传会被误用。比如明明想进行截图后通过 QQ 发给朋友，结果却被上传了。&lt;/p&gt;
@@ -69,10 +70,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
+      &lt;h1 id=&quot;在博客中插图，你痛吗？&quot;&gt;&lt;a href=&quot;#在博客中插图，你痛吗？&quot; class=&quot;headerlink&quot; title=&quot;在博客中插图，你痛吗？&quot;&gt;&lt;/a&gt;在博客中插图，你痛吗？&lt;/h1&gt;&lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;将文档中的图片保存为临时图片文件&lt;/li&gt;
-&lt;li&gt;打开浏览器，登录七牛&lt;/li&gt;
+&lt;li&gt;打开浏览器，登录图床&lt;/li&gt;
 &lt;li&gt;跳转至文档管理页面&lt;/li&gt;
 &lt;li&gt;上传刚才保存的图片文件&lt;/li&gt;
 &lt;li&gt;复制图片链接&lt;/li&gt;
@@ -80,9 +81,10 @@
 &lt;li&gt;删除刚才创建的临时图片文件&lt;/li&gt;
 &lt;li&gt;…&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;现在再来看看，有了图床神器 iPic 后，有什么美好的事情即将发生：&lt;/p&gt;
+&lt;h1 id=&quot;图床神器-iPic-出场&quot;&gt;&lt;a href=&quot;#图床神器-iPic-出场&quot; class=&quot;headerlink&quot; title=&quot;图床神器 iPic 出场&quot;&gt;&lt;/a&gt;图床神器 iPic 出场&lt;/h1&gt;&lt;p&gt;现在再来看看，有了图床神器 iPic 后，有什么美好的事情即将发生：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/006tNbRwgw1f483m5yk5ig30j60asqv5&quot; alt=&quot;iPic2.gif&quot;&gt;&lt;/p&gt;
-&lt;p&gt;没错，iPic 就是图床神器，带给你从未有过的插图体验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;复制、自动上传、粘贴，搞定！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;没错，这就是图床神器 iPic，带给你从未有过的插图体验。&lt;/p&gt;
     
     </summary>
     
