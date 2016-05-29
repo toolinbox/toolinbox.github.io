@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-05-25T15:29:16.000Z</updated>
+  <updated>2016-05-29T03:15:39.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -14,6 +14,74 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图床神器 iPic 第二波体验：支持^七牛^</title>
+    <link href="http://toolinbox.net/iPic/iPicIntroduce1.html"/>
+    <id>http://toolinbox.net/iPic/iPicIntroduce1.html</id>
+    <published>2016-05-29T03:13:17.000Z</published>
+    <updated>2016-05-29T03:15:39.000Z</updated>
+    
+    <content type="html">&lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将文档中的图片保存为临时图片文件&lt;/li&gt;
+&lt;li&gt;打开浏览器，登录七牛&lt;/li&gt;
+&lt;li&gt;跳转至文档管理页面&lt;/li&gt;
+&lt;li&gt;上传刚才保存的图片文件&lt;/li&gt;
+&lt;li&gt;复制图片链接&lt;/li&gt;
+&lt;li&gt;在博客程序中插入图片，并将链接改为 Markdown 格式&lt;/li&gt;
+&lt;li&gt;删除刚才创建的临时图片文件&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;现在再来看看，有了图床神器 iPic 后，有什么美好的事情即将发生：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/006tNbRwgw1f483m5yk5ig30j60asqv5&quot; alt=&quot;iPic2.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;没错，iPic 就是图床神器，带给你从未有过的插图体验。&lt;/p&gt;
+&lt;h1 id=&quot;体验改进&quot;&gt;&lt;a href=&quot;#体验改进&quot; class=&quot;headerlink&quot; title=&quot;体验改进&quot;&gt;&lt;/a&gt;体验改进&lt;/h1&gt;&lt;p&gt;第一版体验中，大家对 &lt;strong&gt;七牛&lt;/strong&gt; 的呼声很高，于是这版就增加了对 &lt;strong&gt;七牛&lt;/strong&gt; 的支持。除此以外，这一版本还在一些细节上进行改进。&lt;/p&gt;
+&lt;h2 id=&quot;1-监控-自动上传-状态&quot;&gt;&lt;a href=&quot;#1-监控-自动上传-状态&quot; class=&quot;headerlink&quot; title=&quot;1. 监控 自动上传 状态&quot;&gt;&lt;/a&gt;1. 监控 自动上传 状态&lt;/h2&gt;&lt;p&gt;上一波体验中，有朋友反馈说自动上传会被误用。比如明明想进行截图后通过 QQ 发给朋友，结果却被上传了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/006tNbRwgw1f483mljm0qg307c01g74b&quot; alt=&quot;iPic3.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如上图所示，改进的方式是：当启用自动上传时，菜单栏的图标会有个小小的闪烁，有点类似于相机在录像时的闪烁。不晃眼，却能有效提醒你在不需要的时候关闭自动上传。&lt;/p&gt;
+&lt;h2 id=&quot;2-查看上传进度&quot;&gt;&lt;a href=&quot;#2-查看上传进度&quot; class=&quot;headerlink&quot; title=&quot;2. 查看上传进度&quot;&gt;&lt;/a&gt;2. 查看上传进度&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006tNbRwgw1f483mo6p1yg307g01ct8q&quot; alt=&quot;iPic4.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;很简洁，上传时显示进度；却很有用，不再盲目等待。&lt;/p&gt;
+&lt;h2 id=&quot;3-全局快捷键&quot;&gt;&lt;a href=&quot;#3-全局快捷键&quot; class=&quot;headerlink&quot; title=&quot;3. 全局快捷键&quot;&gt;&lt;/a&gt;3. 全局快捷键&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006tNbRwgw1f484031s45j30ci0bqwfi&quot; alt=&quot;0035361.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;不论当前正在使用任何程序，都可以使用全局快捷键呼出 iPic 菜单，进而快速地上传图片、复制图片链接、等等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;点滴改进，只为你体验更好。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;我也要体验&quot;&gt;&lt;a href=&quot;#我也要体验&quot; class=&quot;headerlink&quot; title=&quot;我也要体验&quot;&gt;&lt;/a&gt;我也要体验&lt;/h1&gt;&lt;p&gt;是的，你不应该错失 iPic 这款图床神器。&lt;/p&gt;
+&lt;p&gt;老规矩，发邮件至 iToolinbox+iPic#gmail.com，邮件中回答以下问题即可。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你在什么场景下需要插入图片？&lt;ul&gt;
+&lt;li&gt;比如写博客、在 V2EX 发贴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;你目前是怎么做的？&lt;ul&gt;
+&lt;li&gt;比如使用论坛本身的插图功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;你最希望这种工具有什么功能？&lt;ul&gt;
+&lt;li&gt;比如替我叫外卖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;期待你的反馈。&lt;/p&gt;
+&lt;p&gt;注：文中的图就是通过 iPic 插入的，确实很方便，大家可以试试。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/iPic_256.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;先设想一下，要将文档中的图片插入博客，需要多少步骤？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将文档中的图片保存为临时图片文件&lt;/li&gt;
+&lt;li&gt;打开浏览器，登录七牛&lt;/li&gt;
+&lt;li&gt;跳转至文档管理页面&lt;/li&gt;
+&lt;li&gt;上传刚才保存的图片文件&lt;/li&gt;
+&lt;li&gt;复制图片链接&lt;/li&gt;
+    
+    </summary>
+    
+      <category term="iPic" scheme="http://toolinbox.net/categories/iPic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>在 iPic 中添加七牛云</title>
