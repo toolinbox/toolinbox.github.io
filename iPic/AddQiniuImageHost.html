@@ -109,7 +109,7 @@
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2231231.png">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2232311.jpg">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2227311.png">
-<meta property="og:updated_time" content="2016-05-25T15:29:16.000Z">
+<meta property="og:updated_time" content="2016-05-31T14:51:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在 iPic 中添加七牛云">
 <meta name="twitter:description" content="七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。
@@ -326,7 +326,7 @@
 
       
         <p>七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。</p>
-<h1 id="注册七牛账户"><a href="#注册七牛账户" class="headerlink" title="注册七牛账户"></a>注册七牛账户</h1><p>这点比较简单，直接到 <a href="https://portal.qiniu.com/signup" target="_blank" rel="external">这里</a> 注册即可。</p>
+<h1 id="注册七牛账户"><a href="#注册七牛账户" class="headerlink" title="注册七牛账户"></a>注册七牛账户</h1><p>这点比较简单，直接到 <a href="https://portal.qiniu.com/signup?code=3li7ht35vjxaq" target="_blank" rel="external">这里</a> 注册即可。</p>
 <h1 id="在七牛中添加资源"><a href="#在七牛中添加资源" class="headerlink" title="在七牛中添加资源"></a>在七牛中添加资源</h1><p>七牛的数据处理是以 <strong>资源</strong> 为单位的，这里我们可以简单理解为七牛中的 <strong>文件夹</strong>。</p>
 <p>登录七牛后，进入 <a href="https://portal.qiniu.com/create" target="_blank" rel="external"><strong>添加资源</strong></a> 页面，选择添加 <strong>对象存储</strong>。</p>
 <p><img src="http://p.appsites.io/2016-05-25_2224101.jpg" alt="2016-05-25_2224101.jpg"></p>
@@ -358,6 +358,12 @@
 <li>打开刚刚创建的 <strong>test</strong> 资源，复制 <strong>测试域名</strong> 中的域名至 iPic 的 Http 前缀中。要注意格式的完整，比如 <em><a href="http://o7entp---.bkt.clouddn.com/" target="_blank" rel="external">http://o7entp---.bkt.clouddn.com/</a></em> 就是格式完整的 Http 前缀。</li>
 <li><img src="http://p.appsites.io/2016-05-25_2227311.png" alt="2016-05-25_2227311.png"></li>
 <li>当然，如果你绑定了域名，就可以使用自己的域名。</li>
+<li>另外，如果需要使用七牛的文件名前缀功能（也可理解为文件夹），只要在 Http 前缀最后附上文件名前缀即可。<ul>
+<li>比如，普通的 Http 前缀是：<code>http://o7entpabc.bkt.clouddn.com/</code>；</li>
+<li>添加 test 文件名前缀后即变为：<code>http://o7entpabc.bkt.clouddn.com/test/</code>；</li>
+<li>上传的图片链接类似于<code>http://o7entpabc.bkt.clouddn.com/test/screenshot.jpg</code></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

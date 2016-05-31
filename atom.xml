@@ -158,10 +158,10 @@
     <link href="http://toolinbox.net/iPic/AddQiniuImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddQiniuImageHost.html</id>
     <published>2016-05-23T10:32:16.000Z</published>
-    <updated>2016-05-25T15:29:16.000Z</updated>
+    <updated>2016-05-31T14:51:30.000Z</updated>
     
     <content type="html">&lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
-&lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup?code=3li7ht35vjxaq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
 &lt;h1 id=&quot;在七牛中添加资源&quot;&gt;&lt;a href=&quot;#在七牛中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在七牛中添加资源&quot;&gt;&lt;/a&gt;在七牛中添加资源&lt;/h1&gt;&lt;p&gt;七牛的数据处理是以 &lt;strong&gt;资源&lt;/strong&gt; 为单位的，这里我们可以简单理解为七牛中的 &lt;strong&gt;文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
@@ -193,6 +193,12 @@
 &lt;li&gt;打开刚刚创建的 &lt;strong&gt;test&lt;/strong&gt; 资源，复制 &lt;strong&gt;测试域名&lt;/strong&gt; 中的域名至 iPic 的 Http 前缀中。要注意格式的完整，比如 &lt;em&gt;&lt;a href=&quot;http://o7entp---.bkt.clouddn.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://o7entp---.bkt.clouddn.com/&lt;/a&gt;&lt;/em&gt; 就是格式完整的 Http 前缀。&lt;/li&gt;
 &lt;li&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2227311.png&quot; alt=&quot;2016-05-25_2227311.png&quot;&gt;&lt;/li&gt;
 &lt;li&gt;当然，如果你绑定了域名，就可以使用自己的域名。&lt;/li&gt;
+&lt;li&gt;另外，如果需要使用七牛的文件名前缀功能（也可理解为文件夹），只要在 Http 前缀最后附上文件名前缀即可。&lt;ul&gt;
+&lt;li&gt;比如，普通的 Http 前缀是：&lt;code&gt;http://o7entpabc.bkt.clouddn.com/&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;添加 test 文件名前缀后即变为：&lt;code&gt;http://o7entpabc.bkt.clouddn.com/test/&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;上传的图片链接类似于&lt;code&gt;http://o7entpabc.bkt.clouddn.com/test/screenshot.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -205,7 +211,7 @@
     <summary type="html">
     
       &lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
-&lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup?code=3li7ht35vjxaq&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
 &lt;h1 id=&quot;在七牛中添加资源&quot;&gt;&lt;a href=&quot;#在七牛中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在七牛中添加资源&quot;&gt;&lt;/a&gt;在七牛中添加资源&lt;/h1&gt;&lt;p&gt;七牛的数据处理是以 &lt;strong&gt;资源&lt;/strong&gt; 为单位的，这里我们可以简单理解为七牛中的 &lt;strong&gt;文件夹&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
