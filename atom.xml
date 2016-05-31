@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-05-31T14:47:41.000Z</updated>
+  <updated>2016-05-31T14:53:24.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>图床神器 iPic 第二波体验：支持^七牛^</title>
+    <title>图床神器 iPic 第三波体验：支持 Imgur</title>
     <link href="http://toolinbox.net/iPic/iPicIntroduce3.html"/>
     <id>http://toolinbox.net/iPic/iPicIntroduce3.html</id>
     <published>2016-05-31T14:39:18.000Z</published>
-    <updated>2016-05-31T14:47:41.000Z</updated>
+    <updated>2016-05-31T14:53:24.000Z</updated>
     
     <content type="html">&lt;p&gt;之前，图床神器 iPic 已经带来两大波体验：&lt;/p&gt;
 &lt;ul&gt;
@@ -31,6 +31,7 @@
 &lt;h1 id=&quot;1-支持上传图片至-Imgur&quot;&gt;&lt;a href=&quot;#1-支持上传图片至-Imgur&quot; class=&quot;headerlink&quot; title=&quot;1. 支持上传图片至 Imgur&quot;&gt;&lt;/a&gt;1. 支持上传图片至 &lt;strong&gt;Imgur&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://imgur.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Imgur&lt;/a&gt; 是最好用的免费图床之一。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006tNbRwgw1f4exwchyzlg30j60as1f9&quot; alt=&quot;iPic_3.gif&quot;&gt;&lt;/p&gt;
 &lt;p&gt;在 iPic 中添加 Imgur 图床也很简单，只要在偏好设置中添加 Imgur 即可。需要注意的是，Imgur 在国内处于半墙状态：生成的图片链接可以直接访问、但上传图片等操作需要翻墙。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;2-七牛云支持文件名前缀&quot;&gt;&lt;a href=&quot;#2-七牛云支持文件名前缀&quot; class=&quot;headerlink&quot; title=&quot;2. 七牛云支持文件名前缀&quot;&gt;&lt;/a&gt;2. 七牛云支持文件名前缀&lt;/h1&gt;&lt;p&gt;七牛云的文件名前缀也可理解为“文件夹”。用法也很简洁，在现有七牛图床设置中将在 Http 前缀中增加文件名前缀即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006tNbRwjw1f4exbr0xsgj30z60mq415&quot; alt=&quot;2016-05-31_22:12:47.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;比如，普通的 Http 前缀是：&lt;code&gt;http://o7entpabc.bkt.clouddn.com/&lt;/code&gt;&lt;/p&gt;
@@ -66,7 +67,12 @@
       &lt;p&gt;之前，图床神器 iPic 已经带来两大波体验：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://toolinbox.net/iPic/iPicIntroduce1.html&quot;&gt;iPic - 从未插得如此顺滑（有动图）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;h
+&lt;li&gt;&lt;a href=&quot;http://toolinbox.net/iPic/iPicIntroduce2.html&quot;&gt;图床神器 iPic 第二波体验：支持^七牛^&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而 iPic 的第三波体验又会带来了哪些变化呢？赶快来看看吧：&lt;/p&gt;
+&lt;h1 id=&quot;1-支持上传图片至-Imgur&quot;&gt;&lt;a href=&quot;#1-支持上传图片至-Imgur&quot; class=&quot;headerlink&quot; title=&quot;1. 支持上传图片至 Imgur&quot;&gt;&lt;/a&gt;1. 支持上传图片至 &lt;strong&gt;Imgur&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://imgur.com&quot;&gt;Imgur&lt;/a&gt; 是最好用的免费图床之一。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006tNbRwgw1f4exwchyzlg30j60as1f9&quot; alt=&quot;iPic_3.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在 iPic 中添加 Imgur 图床也很简单，只要在偏好设置中添加 Imgur 即可。需要注意的是，Imgur 在国内处于半墙状态：生成的图片链接可以直接访问、但上传图片等操作需要翻墙。&lt;/p&gt;
     
     </summary>
     
