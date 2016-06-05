@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-06-05T05:32:58.000Z</updated>
+  <updated>2016-06-05T05:39:50.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -20,15 +20,16 @@
     <link href="http://toolinbox.net/iPic/AddUpYunImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddUpYunImageHost.html</id>
     <published>2016-06-04T10:00:41.000Z</published>
-    <updated>2016-06-05T05:32:58.000Z</updated>
+    <updated>2016-06-05T05:39:50.000Z</updated>
     
     <content type="html">&lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
-&lt;h1 id=&quot;注册账户&quot;&gt;&lt;a href=&quot;#注册账户&quot; class=&quot;headerlink&quot; title=&quot;注册账户&quot;&gt;&lt;/a&gt;注册账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
-&lt;h1 id=&quot;在又拍中添加资源&quot;&gt;&lt;a href=&quot;#在又拍中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍中添加资源&quot;&gt;&lt;/a&gt;在又拍中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
+&lt;h1 id=&quot;注册又拍云账户&quot;&gt;&lt;a href=&quot;#注册又拍云账户&quot; class=&quot;headerlink&quot; title=&quot;注册又拍云账户&quot;&gt;&lt;/a&gt;注册又拍云账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;在又拍云中添加资源&quot;&gt;&lt;a href=&quot;#在又拍云中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍云中添加资源&quot;&gt;&lt;/a&gt;在又拍云中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1300331.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;点击 &lt;code&gt;创建服务&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301241.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;输入 &lt;code&gt;服务名称&lt;/code&gt;&lt;/li&gt;
@@ -45,7 +46,6 @@
 &lt;ul&gt;
 &lt;li&gt;创建完成&lt;/li&gt;
 &lt;/ul&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;在-iPic-中添加又拍图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加又拍图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加又拍图床&quot;&gt;&lt;/a&gt;在 iPic 中添加又拍图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;又拍&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_QQ20160605-0@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
@@ -72,33 +72,17 @@
 &lt;/ul&gt;
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至又拍的图片。&lt;/p&gt;
 &lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
-&lt;h1 id=&quot;使用又拍&quot;&gt;&lt;a href=&quot;#使用又拍&quot; class=&quot;headerlink&quot; title=&quot;使用又拍&quot;&gt;&lt;/a&gt;使用又拍&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的又拍，之后上传的图片就会在又拍图床中。&lt;/p&gt;
+&lt;h1 id=&quot;使用又拍云&quot;&gt;&lt;a href=&quot;#使用又拍云&quot; class=&quot;headerlink&quot; title=&quot;使用又拍云&quot;&gt;&lt;/a&gt;使用又拍云&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的又拍，之后上传的图片就会在又拍图床中。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
-&lt;h1 id=&quot;注册账户&quot;&gt;&lt;a href=&quot;#注册账户&quot; class=&quot;headerlink&quot; title=&quot;注册账户&quot;&gt;&lt;/a&gt;注册账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
-&lt;h1 id=&quot;在又拍中添加资源&quot;&gt;&lt;a href=&quot;#在又拍中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍中添加资源&quot;&gt;&lt;/a&gt;在又拍中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
+&lt;h1 id=&quot;注册又拍云账户&quot;&gt;&lt;a href=&quot;#注册又拍云账户&quot; class=&quot;headerlink&quot; title=&quot;注册又拍云账户&quot;&gt;&lt;/a&gt;注册又拍云账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;在又拍云中添加资源&quot;&gt;&lt;a href=&quot;#在又拍云中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍云中添加资源&quot;&gt;&lt;/a&gt;在又拍云中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1300331.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;点击 &lt;code&gt;创建服务&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301241.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;输入 &lt;code&gt;服务名称&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301281.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;选择 &lt;code&gt;又拍云存储&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1302491.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;添加操作员。注意：至少选中 &lt;code&gt;可写入&lt;/code&gt; 权限&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1303071.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;创建完成&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
