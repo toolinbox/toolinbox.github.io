@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-05-31T14:53:24.000Z</updated>
+  <updated>2016-06-05T05:32:58.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -14,6 +14,169 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 iPic 中添加又拍云</title>
+    <link href="http://toolinbox.net/iPic/AddUpYunImageHost.html"/>
+    <id>http://toolinbox.net/iPic/AddUpYunImageHost.html</id>
+    <published>2016-06-04T10:00:41.000Z</published>
+    <updated>2016-06-05T05:32:58.000Z</updated>
+    
+    <content type="html">&lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
+&lt;h1 id=&quot;注册账户&quot;&gt;&lt;a href=&quot;#注册账户&quot; class=&quot;headerlink&quot; title=&quot;注册账户&quot;&gt;&lt;/a&gt;注册账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;在又拍中添加资源&quot;&gt;&lt;a href=&quot;#在又拍中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍中添加资源&quot;&gt;&lt;/a&gt;在又拍中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1300331.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击 &lt;code&gt;创建服务&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301241.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;输入 &lt;code&gt;服务名称&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301281.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择 &lt;code&gt;又拍云存储&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1302491.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加操作员。注意：至少选中 &lt;code&gt;可写入&lt;/code&gt; 权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1303071.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;在-iPic-中添加又拍图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加又拍图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加又拍图床&quot;&gt;&lt;/a&gt;在 iPic 中添加又拍图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;又拍&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_QQ20160605-0@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;名称&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;主要是方便自己区分多个图床，可以任意取名，比如 &lt;em&gt;我的又拍&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;服务&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;就是刚才创建的 &lt;em&gt;资源&lt;/em&gt;，这里即是 &lt;em&gt;ipic-test&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;操作员&lt;/code&gt; 与 &lt;code&gt;密码&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;就是刚才创建的 &lt;em&gt;操作员&lt;/em&gt; 及其 &lt;em&gt;密码&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;用于生成上传图片的完成 Http 路径，比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/logo.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/logo.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;当输入服务时，网址前缀会自动填充，比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;（可选）如果你绑定了域名，可以使用绑定的域名。&lt;/li&gt;
+&lt;li&gt;（可选）在网址前缀的最后添加路径（也可理解为文件夹），比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/blog/&lt;/a&gt;&lt;/em&gt; 中的 &lt;code&gt;blog&lt;/code&gt;；此时，上传图片的网址类似于：&lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/blog/logo.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/blog/logo.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至又拍的图片。&lt;/p&gt;
+&lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
+&lt;h1 id=&quot;使用又拍&quot;&gt;&lt;a href=&quot;#使用又拍&quot; class=&quot;headerlink&quot; title=&quot;使用又拍&quot;&gt;&lt;/a&gt;使用又拍&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的又拍，之后上传的图片就会在又拍图床中。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
+&lt;h1 id=&quot;注册账户&quot;&gt;&lt;a href=&quot;#注册账户&quot; class=&quot;headerlink&quot; title=&quot;注册账户&quot;&gt;&lt;/a&gt;注册账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
+&lt;h1 id=&quot;在又拍中添加资源&quot;&gt;&lt;a href=&quot;#在又拍中添加资源&quot; class=&quot;headerlink&quot; title=&quot;在又拍中添加资源&quot;&gt;&lt;/a&gt;在又拍中添加资源&lt;/h1&gt;&lt;p&gt;又拍的数据处理是以 &lt;strong&gt;服务&lt;/strong&gt; 为单位的。登录又拍后，进入 &lt;a href=&quot;https://console.upyun.com/#/services/&quot;&gt;服务&lt;/a&gt; 页面。下面简单介绍注册的过程（图在上、文字介绍在下）：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1300331.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击 &lt;code&gt;创建服务&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301241.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;输入 &lt;code&gt;服务名称&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1301281.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择 &lt;code&gt;又拍云存储&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1302491.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加操作员。注意：至少选中 &lt;code&gt;可写入&lt;/code&gt; 权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-06-05_1303071.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建完成&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="iPic" scheme="http://toolinbox.net/categories/iPic/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iPic 上传服务</title>
+    <link href="http://toolinbox.net/iPic/iPicUploadService.html"/>
+    <id>http://toolinbox.net/iPic/iPicUploadService.html</id>
+    <published>2016-06-03T14:15:34.000Z</published>
+    <updated>2016-06-03T14:17:09.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;什么是-iPic-上传服务&quot;&gt;&lt;a href=&quot;#什么是-iPic-上传服务&quot; class=&quot;headerlink&quot; title=&quot;什么是 iPic 上传服务&quot;&gt;&lt;/a&gt;什么是 iPic 上传服务&lt;/h1&gt;&lt;p&gt;图床神器 iPic 可以方便的上传图片、插入博客。不仅是独立的 App，iPic 同样提供开放的上传服务，你的 App 可以方便的调用 iPic 上传服务进行图片的上传。&lt;/p&gt;
+&lt;h1 id=&quot;使用-iPic-上传服务的条件&quot;&gt;&lt;a href=&quot;#使用-iPic-上传服务的条件&quot; class=&quot;headerlink&quot; title=&quot;使用 iPic 上传服务的条件&quot;&gt;&lt;/a&gt;使用 iPic 上传服务的条件&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;iPic 已安装（可位于任意位置，不一定是 &lt;code&gt;/Applications&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;iPic 至少被运行一次&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/toolinbox/iPic/master/UploadService/iPic_v0.7.2.dmg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;点此下载 iPic&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;如何使用-iPic-上传服务&quot;&gt;&lt;a href=&quot;#如何使用-iPic-上传服务&quot; class=&quot;headerlink&quot; title=&quot;如何使用 iPic 上传服务&quot;&gt;&lt;/a&gt;如何使用 iPic 上传服务&lt;/h1&gt;&lt;p&gt;目前 iPic 上传服务支持使用 URL scheme 进行通信。&lt;/p&gt;
+&lt;p&gt;调用 iPic 上传服务的示例 URL scheme:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;iPic:///upload?filePath=/Users/jason/Downloads/test.jpg&amp;amp;callback=iPicDemo:///uploadResult&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iPic:///upload&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;固定值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;filePath&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;图片文件的完整路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;callback&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;用于 iPic 上传服务回调你的 App&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;iPic 上传服务回调你的 App 的示例 URL scheme:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;iPicDemo:///uploadResult?filePath=/Users/jason/Downloads/1753061.jpg&amp;amp;url=http://img.com/test.jpg&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iPicDemo:///uploadResult&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;你的 App 支持的 URL Scheme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;filePath&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;和调用 iPic 上传服务时的路径完全一致&lt;/li&gt;
+&lt;li&gt;用于上传多张图片时获取不同图片对应的 url&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;图片文件的 URL&lt;/li&gt;
+&lt;li&gt;如果上传失败，回调中无此参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;一次调用仅支持上传一张图片。如需上传多张，多次调用即可。回调将依次执行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;目前尚未支持错误码&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;更多细节，可以查看示例项目：&lt;a href=&quot;https://github.com/toolinbox/iPic/tree/master/UploadService/UploadImageDemo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UploadImageDemo&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;什么是-iPic-上传服务&quot;&gt;&lt;a href=&quot;#什么是-iPic-上传服务&quot; class=&quot;headerlink&quot; title=&quot;什么是 iPic 上传服务&quot;&gt;&lt;/a&gt;什么是 iPic 上传服务&lt;/h1&gt;&lt;p&gt;图床神器 iPic 可以方便的上传图片、插入博客。不
+    
+    </summary>
+    
+      <category term="iPic" scheme="http://toolinbox.net/categories/iPic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>图床神器 iPic 第三波体验：支持 Imgur</title>
