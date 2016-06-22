@@ -104,12 +104,11 @@
 这里我创建一个 test 资源。">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2224101.jpg">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2226441.jpg">
-<meta property="og:image" content="http://p.appsites.io/2016-05-25_QQ20160525-20@2x.png">
-<meta property="og:image" content="http://p.appsites.io/2016-05-25_QQ20160525-10@2x-1.png">
+<meta property="og:image" content="http://p.appsites.io/blog/2016-06-22_2259261.jpg">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2231231.png">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2232311.jpg">
 <meta property="og:image" content="http://p.appsites.io/2016-05-25_2227311.png">
-<meta property="og:updated_time" content="2016-05-31T14:51:30.000Z">
+<meta property="og:updated_time" content="2016-06-22T15:35:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在 iPic 中添加七牛云">
 <meta name="twitter:description" content="七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。
@@ -340,10 +339,8 @@
 <p><img src="http://p.appsites.io/2016-05-25_2224101.jpg" alt="2016-05-25_2224101.jpg"></p>
 <p>这里我创建一个 <strong>test</strong> 资源。</p>
 <p><img src="http://p.appsites.io/2016-05-25_2226441.jpg" alt="2016-05-25_2226441.jpg"><br><a id="more"></a></p>
-<h1 id="在-iPic-中添加七牛图床"><a href="#在-iPic-中添加七牛图床" class="headerlink" title="在 iPic 中添加七牛图床"></a>在 iPic 中添加七牛图床</h1><p>打开 <code>偏好设置</code>，进入 <code>图床</code> 页，选择添加 <code>七牛</code>。</p>
-<p><img src="http://p.appsites.io/2016-05-25_QQ20160525-20@2x.png" alt="2016-05-25_QQ20160525-20@2x.png"></p>
-<p>以下分别介绍各项的意义及如何配置：</p>
-<p><img src="http://p.appsites.io/2016-05-25_QQ20160525-10@2x-1.png" alt="2016-05-25_QQ20160525-10@2x-1.png"></p>
+<h1 id="在-iPic-中添加七牛图床"><a href="#在-iPic-中添加七牛图床" class="headerlink" title="在 iPic 中添加七牛图床"></a>在 iPic 中添加七牛图床</h1><p>打开 <code>偏好设置</code>，进入 <code>图床</code> 页，选择添加 <code>七牛</code>。以下分别介绍各项的意义及如何配置：</p>
+<p><img src="http://p.appsites.io/blog/2016-06-22_2259261.jpg" alt=""></p>
 <ul>
 <li><strong>名称</strong><ul>
 <li>主要是方便自己区分多个图床，可以任意取名，比如 <em>我的七牛</em></li>
@@ -361,7 +358,7 @@
 <li><img src="http://p.appsites.io/2016-05-25_2232311.jpg" alt="2016-05-25_2232311.jpg"></li>
 </ul>
 </li>
-<li><strong>Http 前缀</strong><ul>
+<li><strong>网址前缀</strong><ul>
 <li>用于生成上传图片的完成 Http 路径</li>
 <li>打开刚刚创建的 <strong>test</strong> 资源，复制 <strong>测试域名</strong> 中的域名至 iPic 的 Http 前缀中。要注意格式的完整，比如 <em><a href="http://o7entp---.bkt.clouddn.com/" target="_blank" rel="external">http://o7entp---.bkt.clouddn.com/</a></em> 就是格式完整的 Http 前缀。</li>
 <li><img src="http://p.appsites.io/2016-05-25_2227311.png" alt="2016-05-25_2227311.png"></li>
@@ -372,6 +369,10 @@
 <li>上传的图片链接类似于<code>http://o7entpabc.bkt.clouddn.com/test/screenshot.jpg</code></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><strong>网址后缀</strong><ul>
+<li>可用于自定义图片样式。比如，在七牛中添加了名字为 <code>s</code> 的样式表示缩略图，样式分隔符为 <code>-</code>，则可以在 <code>网址后缀</code> 中输入 <code>-s</code>。这样之后每次上传图片生成的链接最后都会附上 <code>-s</code>，也即表示缩略图。</li>
 </ul>
 </li>
 </ul>
