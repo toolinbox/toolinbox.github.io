@@ -388,7 +388,7 @@
     <link href="http://toolinbox.net/iPic/iPicIntroduce1.html"/>
     <id>http://toolinbox.net/iPic/iPicIntroduce1.html</id>
     <published>2016-05-17T12:50:42.000Z</published>
-    <updated>2016-05-31T14:46:19.000Z</updated>
+    <updated>2016-05-31T14:53:30.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006tNbRwgw1f4eyaf0s2kg30qo0f0e84&quot; alt=&quot;iPic1.gif&quot;&gt;&lt;/p&gt;
 &lt;p&gt;只要在 iPic 中开启自动上传，不论屏幕截图、还是复制图片文件，都将自动上传至微博图床、并复制 Markdown 格式的链接，直接粘贴插入，够懒人吧？&lt;/p&gt;
