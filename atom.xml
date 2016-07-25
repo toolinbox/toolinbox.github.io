@@ -314,7 +314,7 @@
     <link href="http://toolinbox.net/iPic/AddQiniuImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddQiniuImageHost.html</id>
     <published>2016-05-23T10:32:16.000Z</published>
-    <updated>2016-06-22T15:35:13.000Z</updated>
+    <updated>2016-07-25T09:47:31.000Z</updated>
     
     <content type="html">&lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
 &lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup?code=3li7ht35vjxaq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
@@ -324,7 +324,7 @@
 &lt;p&gt;这里我创建一个 &lt;strong&gt;test&lt;/strong&gt; 资源。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-22_2259261.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-22_2259221.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;名称&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;主要是方便自己区分多个图床，可以任意取名，比如 &lt;em&gt;我的七牛&lt;/em&gt;&lt;/li&gt;
