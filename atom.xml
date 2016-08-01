@@ -388,9 +388,20 @@
     <link href="http://toolinbox.net/iPic/ChangeLog.html"/>
     <id>http://toolinbox.net/iPic/ChangeLog.html</id>
     <published>2016-05-22T10:32:16.000Z</published>
-    <updated>2016-07-28T12:33:06.000Z</updated>
+    <updated>2016-08-01T00:45:42.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;v1-1-0&quot;&gt;&lt;a href=&quot;#v1-1-0&quot; class=&quot;headerlink&quot; title=&quot;v1.1.0&quot;&gt;&lt;/a&gt;v1.1.0&lt;/h1&gt;&lt;p&gt;2016/07/03&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;v1-1-1&quot;&gt;&lt;a href=&quot;#v1-1-1&quot; class=&quot;headerlink&quot; title=&quot;v1.1.1&quot;&gt;&lt;/a&gt;v1.1.1&lt;/h1&gt;&lt;p&gt;2016/08/01&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;批量上传时保存批量结果&lt;/li&gt;
+&lt;li&gt;新增快捷键上传已复制图片&lt;/li&gt;
+&lt;li&gt;切换链接类型移至主菜单&lt;/li&gt;
+&lt;li&gt;七牛、又拍图床支持自定义文件名&lt;/li&gt;
+&lt;li&gt;Imgur、Flickr 支持多个账户&lt;/li&gt;
+&lt;li&gt;精简主菜单&lt;/li&gt;
+&lt;li&gt;支持 macOS Sierra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://v2ex.com/t/296218&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;更多介绍&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;v1-1-0&quot;&gt;&lt;a href=&quot;#v1-1-0&quot; class=&quot;headerlink&quot; title=&quot;v1.1.0&quot;&gt;&lt;/a&gt;v1.1.0&lt;/h1&gt;&lt;p&gt;2016/07/03&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;正式上架 Mac App Store&lt;/li&gt;
 &lt;/ul&gt;
@@ -441,11 +452,10 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;v1-1-0&quot;&gt;&lt;a href=&quot;#v1-1-0&quot; class=&quot;headerlink&quot; title=&quot;v1.1.0&quot;&gt;&lt;/a&gt;v1.1.0&lt;/h1&gt;&lt;p&gt;2016/07/03&lt;/p&gt;
+      &lt;h1 id=&quot;v1-1-1&quot;&gt;&lt;a href=&quot;#v1-1-1&quot; class=&quot;headerlink&quot; title=&quot;v1.1.1&quot;&gt;&lt;/a&gt;v1.1.1&lt;/h1&gt;&lt;p&gt;2016/08/01&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;正式上架 Mac App Store&lt;/li&gt;
-&lt;/ul&gt;
-
+&lt;li&gt;批量上传时保存批量结果&lt;/li&gt;
+&lt;li&gt;新增快捷键上传已复
     
     </summary>
     
