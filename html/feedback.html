@@ -1,0 +1,76 @@
+<html>
+<head>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!1,baseUrl:""},contact:{enabled:!0,formId:"c3063e4c-65e4-11e6-91aa-0a5fecc78a4d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
+	<script>
+		function getQueryParams(qs) {
+			qs = qs.split('+').join(' ');
+			var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+			while (tokens = re.exec(qs)) {
+			    params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+			}
+			return params;
+		}
+
+		var v_modal = true;
+		var v_color = '#30B0E0';
+		var v_attachment = false;
+		var v_poweredBy = false;
+		var v_title = 'Feedback'
+
+		var query = getQueryParams(document.location.search);
+		var lang = query.lang;
+		if (lang == 'cn') {
+			v_title = "反馈";
+			HS.beacon.config({
+				modal: v_modal,
+				color: v_color,
+				translation: {
+				  nameLabel: '呢称',
+				  nameError: '怎么称呼你？',
+				  emailLabel: '邮箱',
+				  emailError: '需要邮箱才能回复',
+				  subjectLabel: '遇到什么问题了？',
+				  subjectError: '说点什么吧',
+				  messageLabel: '任何细节都会很有帮助',
+				  messageError: '说点什么吧',
+				  sendLabel: '提交反馈',
+				  contactSuccessLabel: '已提交',
+				  contactSuccessDescription: '感谢反馈，我会尽快回复'
+				},
+				attachment: v_attachment,
+				instructions:'反馈',
+				poweredBy: v_poweredBy
+			});
+
+		} else {
+			v_title = "Feedback";
+			HS.beacon.config({
+				modal: v_modal,
+				color: v_color,
+				translation: {
+				  emailLabel: 'Email',
+				  subjectLabel: 'What\'s your problem?',
+				  messageLabel: 'Any details will be helpful…',
+				  contactSuccessLabel: 'Message Sent',
+				  contactSuccessDescription: 'Thanks for reaching out. I will get back to you soon.'
+				},
+				attachment: v_attachment,
+				instructions:'Feedback',
+				poweredBy: v_poweredBy
+			});
+		}
+
+		document.title = v_title;
+
+	    HS.beacon.ready(function() {
+		  this.open();
+		});
+
+		$('html').on('click',function() {
+			HS.beacon.open();
+		});
+	</script>
+</head>
+</html>
