@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by cheeriofly (http://jsbin.com/vaxomo/43/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>iPic - 反馈</title>
+<style id="jsbin-css">
+/**
+ * CSS is not essential for form functionality,
+ * it's here just for presentation
+ */
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css');
+
+.support-form {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em;
+  text-align: left;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+              0 3px 1px -2px rgba(0,0,0,.2),
+              0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.support-form input,
+.support-form textarea {
+  display: block;
+  padding: 0.3em 0.05em;
+  min-width: 20em;
+  resize: vertical;
+  border: 0;
+  border-bottom: 2px solid #eee;
+  transition: all 0.15s;
+}
+.support-form input:focus,
+.support-form textarea:focus {
+  outline: 0;
+  border-bottom-color: #03A9F4;
+}
+
+.support-form select {
+  display: block;
+  width: 100%;
+}
+
+.support-form label {
+  display: block;
+}
+
+.support-form label + label {
+  margin-top: 1.2em;
+}
+
+.support-form .label-text {
+  display: block;
+  margin-bottom: 0.3em;
+  font-size: 0.666em;
+  color: #aaa;
+}
+
+.support-form .submit-button {
+  margin-top: 2em;
+  padding: 0.6em 1.5em 0.5em;
+  font-size: 1em;
+  color: white;
+  background-color: #03A9F4;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.support-form .submit-button:hover {
+  background-color: #0398db;
+}
+
+.support-form .submit-button:active {
+  background-color: #0286c2;
+}
+
+.support-form .submit-button:active,
+.support-form .submit-button:focus {
+  outline: 0;
+}
+
+.support-form .submit-button.loading {
+  pointer-events: none;
+  background-color: #ccc;
+}
+
+.support-form .success-message {
+  padding: 4em;
+  color: #0286c2;
+}
+
+.u-text-center {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+  <div class="u-text-center">
+    <form id="js-support-form" class="support-form">
+      <label>
+        <span class="label-text">邮箱</span>
+        <input name="email" type="email" placeholder="" required>
+      </label>
+
+      <label>
+        <span class="label-text">问题</span>
+        <input name="subject" type="text"  placeholder="你有什么问题？" required>
+      </label>
+
+      <label>
+        <span class="label-text">问题描述</span>
+        <textarea name="message" placeholder="任何细节都会很有帮助"></textarea>
+      </label>
+
+      <button class="submit-button">提交反馈</button>
+    </form>
+  </div>
+  
+  <div>
+    <input type="hidden" id="feedbackString" value="感谢你的反馈！" />
+  </div>
+
+  <!--  Regular Groove Widget embed code,  -->
+  <!--  but `ticket.js` in `src` URL is    -->
+  <!--  replaced with `ticket/api.js`      -->
+  <script>
+  (function() {var s=document.createElement('script');
+    s.type='text/javascript';s.async=true;
+    s.src=('https:'==document.location.protocol?'https':'http') +
+    '://toolinbox.groovehq.com/widgets/89bd74f2-7641-4aa7-b9fa-fe99f3ba0dce/ticket/api.js'; var q = document.getElementsByTagName('script')[0];q.parentNode.insertBefore(s, q);})();
+  </script>
+
+  <!-- Code from JavaScript tab will be included here -->
+<script id="jsbin-javascript">
+function grooveOnReady() {  
+  // Contents of this function will be
+  // executed when Groove JS API loads
+  // (i.e. you can start creating tickets)
+  //
+  // Make sure to not change its name!
+
+  var form = document.getElementById('js-support-form');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();  // stop browser from trying to submit the form
+
+    /**
+     * Pull infromation from the from
+     */
+    var email = form.querySelector('[name=email]').value;
+    var subject = form.querySelector('[name=subject]').value;
+    var message = form.querySelector('[name=message]').value;
+
+    /**
+     * Push all collected information into Groove
+     */
+    Groove.createTicket(
+      {
+        email: email,
+        subject: subject,
+        message: message
+      },
+      responseCallbackFn  // optional, can be omitted
+    );
+    
+    /**
+     * Non-essential functionality:
+     *  notify user about success, disable button
+     *  to prevent accidental duplicates, and log
+     *  errors to console if something is wrong
+     */
+    var button = form.querySelector('.submit-button');
+    button.classList.add('loading');
+
+    function responseCallbackFn(response) {
+      if (response.status === 200) {
+        var successMessage = document.createElement('div');
+        successMessage.innerText = document.getElementById('feedbackString').value;
+        successMessage.classList = 'success-message';
+
+        form.innerHTML = '';
+        form.appendChild(successMessage);
+      } else {
+        button.classList.remove('loading');
+        console.error('Something went wrong with creating support ticket:', response);
+      }
+    }
+
+  });
+}
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-6', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
