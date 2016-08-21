@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-08-21T08:42:52.000Z</updated>
+  <updated>2016-08-21T08:49:31.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -16,15 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>在 iPic 中添加阿里云 OSS 图床</title>
+    <title>在 iPic 中添加阿里云 OSS</title>
     <link href="http://toolinbox.net/iPic/AliOSS.html"/>
     <id>http://toolinbox.net/iPic/AliOSS.html</id>
     <published>2016-08-16T13:54:14.000Z</published>
-    <updated>2016-08-21T08:42:52.000Z</updated>
+    <updated>2016-08-21T08:49:31.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.aliyun.com/product/oss&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里云对象存储&lt;/a&gt;（Object Storage Service，简称OSS），是阿里云对外提供的云存储服务。OSS适合存放任意文件类型，有很多朋友将其作为静态网站加速、或图床。本文就介绍下如何在 iPic 中添加阿里 OSS 图床。&lt;/p&gt;
-&lt;h1 id=&quot;在偏好设置中添加阿里云-OSS-图床&quot;&gt;&lt;a href=&quot;#在偏好设置中添加阿里云-OSS-图床&quot; class=&quot;headerlink&quot; title=&quot;在偏好设置中添加阿里云 OSS 图床&quot;&gt;&lt;/a&gt;在偏好设置中添加阿里云 OSS 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;阿里云 OSS&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;/p&gt;
+&lt;h1 id=&quot;在偏好设置中添加阿里云-OSS-图床&quot;&gt;&lt;a href=&quot;#在偏好设置中添加阿里云-OSS-图床&quot; class=&quot;headerlink&quot; title=&quot;在偏好设置中添加阿里云 OSS 图床&quot;&gt;&lt;/a&gt;在偏好设置中添加阿里云 OSS 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;阿里云 OSS&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-21-16.12%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Bucket&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;即阿里云 OSS 中对应的 Bucket&lt;/li&gt;
@@ -45,7 +46,7 @@
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至又拍的图片。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;除了上述基本的设置，阿里云 OSS 还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-21-15.26%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-21-16.26%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;和前文介绍的一致&lt;/li&gt;
@@ -58,13 +59,14 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;自定义文件名&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;支持以下三种文件名&lt;/li&gt;
-&lt;li&gt;纯文件名，也即和上传时文件名相同，比如 &lt;code&gt;pic.jpg&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;日期-文件名，也即和之前的 iPic 相同，比如 &lt;code&gt;2016-06-16-pic.jpg&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;随机，比如 &lt;code&gt;jk8l1.jpg&lt;/code&gt;，可以大大缩短链接长度&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;纯文件名&lt;/code&gt; 也即和上传时文件名相同，比如 &lt;code&gt;pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;日期-文件名&lt;/code&gt; 也即和之前的 iPic 相同，比如 &lt;code&gt;2016-06-16-pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;随机&lt;/code&gt; 比如 &lt;code&gt;jk8l1.jpg&lt;/code&gt;，可以大大缩短链接长度&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;网址后缀&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;可用于阿里云 OSS 中的自定义样式。比如，在又拍中添加了名字为 &lt;code&gt;s&lt;/code&gt; 的版本表示缩略图，间隔标识符为 &lt;code&gt;-&lt;/code&gt;，则可以在 &lt;code&gt;网址后缀&lt;/code&gt; 中输入 &lt;code&gt;-s&lt;/code&gt;。这样之后每次上传图片生成的链接最后都会附上 &lt;code&gt;-s&lt;/code&gt;，例如：&lt;em&gt;&lt;a href=&quot;http://ipic-test.oss-cn-hangzhou.aliyuncs.com/blog/pic.jpg-s&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.oss-cn-hangzhou.aliyuncs.com/blog/pic.jpg-s&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;可用于阿里云 OSS 中的自定义样式&lt;/li&gt;
+&lt;li&gt;比如，在又拍中添加了名字为 &lt;code&gt;s&lt;/code&gt; 的版本表示缩略图，间隔标识符为 &lt;code&gt;-&lt;/code&gt;，则可以在 &lt;code&gt;网址后缀&lt;/code&gt; 中输入 &lt;code&gt;-s&lt;/code&gt;。这样之后每次上传图片生成的链接最后都会附上 &lt;code&gt;-s&lt;/code&gt;，例如：&lt;em&gt;&lt;a href=&quot;http://ipic-test.oss-cn-hangzhou.aliyuncs.com/blog/pic.jpg-s&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.oss-cn-hangzhou.aliyuncs.com/blog/pic.jpg-s&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -88,7 +90,7 @@
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-17-9.45.40.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;填写登录名，注意勾选 &lt;code&gt;为该用户自动生成 AccessKey&lt;/code&gt;，然后点击确定&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-17-9.46.17.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;保存这里的 &lt;code&gt;AccessKeyID&lt;/code&gt; 与 &lt;code&gt;AccessKeySecret&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;保存这里的 &lt;code&gt;AccessKeyID&lt;/code&gt; 与 &lt;code&gt;AccessKeySecret&lt;/code&gt;，分别对应 iPic 图床配置中的 &lt;code&gt;Access Key&lt;/code&gt; 与 &lt;code&gt;Secret Key&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-17-9.46.32.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;在用户列表界面点击新创建用户对应的 &lt;code&gt;授权&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-17-9.50.30.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -111,8 +113,9 @@
     <summary type="html">
     
       &lt;p&gt;&lt;a href=&quot;https://www.aliyun.com/product/oss&quot;&gt;阿里云对象存储&lt;/a&gt;（Object Storage Service，简称OSS），是阿里云对外提供的云存储服务。OSS适合存放任意文件类型，有很多朋友将其作为静态网站加速、或图床。本文就介绍下如何在 iPic 中添加阿里 OSS 图床。&lt;/p&gt;
-&lt;h1 id=&quot;在偏好设置中添加阿里云-OSS-图床&quot;&gt;&lt;a href=&quot;#在偏好设置中添加阿里云-OSS-图床&quot; class=&quot;headerlink&quot; title=&quot;在偏好设置中添加阿里云 OSS 图床&quot;&gt;&lt;/a&gt;在偏好设置中添加阿里云 OSS 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;阿里云 OSS&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;/p&gt;
+&lt;h1 id=&quot;在偏好设置中添加阿里云-OSS-图床&quot;&gt;&lt;a href=&quot;#在偏好设置中添加阿里云-OSS-图床&quot; class=&quot;headerlink&quot; title=&quot;在偏好设置中添加阿里云 OSS 图床&quot;&gt;&lt;/a&gt;在偏好设置中添加阿里云 OSS 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;阿里云 OSS&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-21-16.12%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Bucket&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;即阿里云 OSS 中对应的 Bucket&lt;/li&gt;
