@@ -5,14 +5,17 @@
     
   <url>
     <loc>http://toolinbox.net/iPic/AddS3.html</loc>
-    <lastmod>2016-08-29T14:06:20.000Z</lastmod>
+    <lastmod>2016-08-29T14:07:16.000Z</lastmod>
     <data>
         <display>
-        <title></title>
+        <title>在 iPic 中添加 Amazon S3 图床</title>
         <pubTime>2016-08-29T10:46:42.000Z</pubTime>
         
          
            
+             
+              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
+          
         </display>
     </data>
     </url>
