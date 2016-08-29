@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-08-28T11:16:59.000Z</updated>
+  <updated>2016-08-29T14:06:20.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -14,6 +14,89 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://toolinbox.net/iPic/AddS3.html"/>
+    <id>http://toolinbox.net/iPic/AddS3.html</id>
+    <published>2016-08-29T10:46:42.000Z</published>
+    <updated>2016-08-29T14:06:20.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Amazon Simple Storage Service (&lt;a href=&quot;https://aws.amazon.com/s3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Amazon S3&lt;/a&gt; 可轻松使用对象存储，具有简单的 Web 服务接口，可用于在 Web 上的任何位置存储和检索任意数量的数据。更多介绍，可参考 &lt;a href=&quot;http://docs.aws.amazon.com/zh_cn/AmazonS3/latest/gsg/GetStartedWithS3.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Amazon S3 入门指南&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;在-iPic-中添加-Amazon-S3-图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加-Amazon-S3-图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加 Amazon S3 图床&quot;&gt;&lt;/a&gt;在 iPic 中添加 Amazon S3 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;Amazon S3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-29-Screen%20Shot%202016-08-29%20at%209.29.00%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Bucket&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;即 Amazon S3 中对应的 Bucket&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Access Key&lt;/code&gt; 与 &lt;code&gt;Secret Key&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;推荐使用 Amazon 的 &lt;a href=&quot;http://docs.aws.amazon.com/zh_cn/IAM/latest/UserGuide/introduction.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AWS Identity and Access Management (IAM) &lt;/a&gt; 来创建更安全的 Access Key 与 Secret Key，并设置对 Bucket 的最少权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;用于生成上传图片的完成 Http 路径，比如 &lt;em&gt;&lt;a href=&quot;https://ipic-test.s3.amazonaws.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://ipic-test.s3.amazonaws.com&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;如果你绑定了域名，可以使用绑定的域名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传的图片。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;除了上述基本的设置，Amazon S3 还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-29-Screen%20Shot%202016-08-29%20at%209.28.55%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;和前文介绍的一致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;文件名前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;可简单理解为 Amazon S3 中的目录&lt;/li&gt;
+&lt;li&gt;例如，如果希望 iPic 上传的图片都位于 &lt;code&gt;blog&lt;/code&gt; 目录中，只要在这里输入 &lt;code&gt;blog&lt;/code&gt;，所有上传的图片则均位于 &lt;code&gt;blog&lt;/code&gt; 目录中，生成的图片链接类似于：&lt;em&gt;&lt;a href=&quot;https://ipic-test.s3.amazonaws.com/blog/pic.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://ipic-test.s3.amazonaws.com/blog/pic.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;自定义文件名&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;支持以下三种文件名&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;纯文件名&lt;/code&gt; 也即和上传时文件名相同，比如 &lt;code&gt;pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;日期-文件名&lt;/code&gt; 也即和之前的 iPic 相同，比如 &lt;code&gt;2016-06-16-pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;随机&lt;/code&gt; 比如 &lt;code&gt;jk8l1.jpg&lt;/code&gt;，可以大大缩短链接长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址后缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;即在网址最后追加自定义的内容，为以后扩展预留&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Amazon Simple Storage Service (&lt;a href=&quot;https://aws.amazon.com/s3/&quot;&gt;Amazon S3&lt;/a&gt; 可轻松使用对象存储，具有简单的 Web 服务接口，可用于在 Web 上的任何位置存储和检索任意数量的数据。更多介绍，可参考 &lt;a href=&quot;http://docs.aws.amazon.com/zh_cn/AmazonS3/latest/gsg/GetStartedWithS3.html&quot;&gt;Amazon S3 入门指南&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;在-iPic-中添加-Amazon-S3-图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加-Amazon-S3-图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加 Amazon S3 图床&quot;&gt;&lt;/a&gt;在 iPic 中添加 Amazon S3 图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;Amazon S3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/2016-08-29-Screen%20Shot%202016-08-29%20at%209.29.00%20PM.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以下分别介绍各项的意义及如何配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Bucket&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;即 Amazon S3 中对应的 Bucket&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Access Key&lt;/code&gt; 与 &lt;code&gt;Secret Key&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;推荐使用 Amazon 的 &lt;a href=&quot;http://docs.aws.amazon.com/zh_cn/IAM/latest/UserGuide/introduction.html&quot;&gt;AWS Identity and Access Management (IAM) &lt;/a&gt; 来创建更安全的 Access Key 与 Secret Key，并设置对 Bucket 的最少权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;用于生成上传图片的完成 Http 路径，比如 &lt;em&gt;&lt;a href=&quot;https://ipic-test.s3.amazonaws.com&quot;&gt;https://ipic-test.s3.amazonaws.com&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;如果你绑定了域名，可以使用绑定的域名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传的图片。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>在 iPic 中添加阿里云 OSS</title>
