@@ -232,7 +232,7 @@
     <link href="http://toolinbox.net/iPic/AddUpYunImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddUpYunImageHost.html</id>
     <published>2016-06-04T10:00:41.000Z</published>
-    <updated>2016-09-01T04:12:04.000Z</updated>
+    <updated>2016-09-01T04:16:47.000Z</updated>
     
     <content type="html">&lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
 &lt;h1 id=&quot;注册又拍云账户&quot;&gt;&lt;a href=&quot;#注册又拍云账户&quot; class=&quot;headerlink&quot; title=&quot;注册又拍云账户&quot;&gt;&lt;/a&gt;注册又拍云账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
@@ -278,7 +278,7 @@
 &lt;/ul&gt;
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至又拍的图片。&lt;/p&gt;
 &lt;p&gt;除了上述基本的设置，又拍图床还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/s7cym.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/wwanz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;和前文介绍的一致&lt;/li&gt;
@@ -541,7 +541,7 @@
     <link href="http://toolinbox.net/iPic/AddQiniuImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddQiniuImageHost.html</id>
     <published>2016-05-23T10:32:16.000Z</published>
-    <updated>2016-09-01T04:08:31.000Z</updated>
+    <updated>2016-09-01T04:17:00.000Z</updated>
     
     <content type="html">&lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
 &lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup?code=3li7ht35vjxaq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
@@ -576,7 +576,7 @@
 &lt;/ul&gt;
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传的图片。&lt;/p&gt;
 &lt;p&gt;除了上述基本的设置，七牛还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/5im7e.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/dw5sr.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;和前文介绍的一致&lt;/li&gt;
