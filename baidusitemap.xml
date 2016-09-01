@@ -3,6 +3,42 @@
 
 
     
+  <url>
+    <loc>http://toolinbox.net/iPic/AddUpYunImageHost.html</loc>
+    <lastmod>2016-09-01T04:12:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>在 iPic 中添加又拍云</title>
+        <pubTime>2016-06-04T10:00:41.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
+    <lastmod>2016-09-01T04:08:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>在 iPic 中添加七牛云</title>
+        <pubTime>2016-05-23T10:32:16.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://toolinbox.net/iPic/ChangeLog.html</loc>
@@ -70,42 +106,6 @@
            
              
               <breadCrumb title="iHosts" url="http://toolinbox.net/categories/iHosts/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
-    <lastmod>2016-07-25T09:47:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>在 iPic 中添加七牛云</title>
-        <pubTime>2016-05-23T10:32:16.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://toolinbox.net/iPic/AddUpYunImageHost.html</loc>
-    <lastmod>2016-06-22T15:34:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>在 iPic 中添加又拍云</title>
-        <pubTime>2016-06-04T10:00:41.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="iPic" url="http://toolinbox.net/categories/iPic/"/>
           
         </display>
     </data>

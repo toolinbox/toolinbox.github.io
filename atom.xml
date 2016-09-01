@@ -232,7 +232,7 @@
     <link href="http://toolinbox.net/iPic/AddUpYunImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddUpYunImageHost.html</id>
     <published>2016-06-04T10:00:41.000Z</published>
-    <updated>2016-06-22T15:34:47.000Z</updated>
+    <updated>2016-09-01T04:12:04.000Z</updated>
     
     <content type="html">&lt;p&gt;最近大家多次提到在 iPic 中支持&lt;code&gt;又拍云&lt;/code&gt;，于是 iPic 就支持了&lt;code&gt;又拍云&lt;/code&gt;。&lt;/p&gt;
 &lt;h1 id=&quot;注册又拍云账户&quot;&gt;&lt;a href=&quot;#注册又拍云账户&quot; class=&quot;headerlink&quot; title=&quot;注册又拍云账户&quot;&gt;&lt;/a&gt;注册又拍云账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://console.upyun.com/#/register/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
@@ -259,12 +259,8 @@
 &lt;li&gt;创建完成&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;在-iPic-中添加又拍图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加又拍图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加又拍图床&quot;&gt;&lt;/a&gt;在 iPic 中添加又拍图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;又拍&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-22_2259261.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/kpjw2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;名称&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;主要是方便自己区分多个图床，可以任意取名，比如 &lt;em&gt;我的又拍&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;服务&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;就是刚才创建的 &lt;em&gt;资源&lt;/em&gt;，这里即是 &lt;em&gt;ipic-test&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -276,16 +272,35 @@
 &lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;用于生成上传图片的完成 Http 路径，比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/logo.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/logo.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;当输入服务时，网址前缀会自动填充，比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;（可选）如果你绑定了域名，可以使用绑定的域名。&lt;/li&gt;
-&lt;li&gt;（可选）在网址前缀的最后添加路径（也可理解为文件夹），比如 &lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/blog/&lt;/a&gt;&lt;/em&gt; 中的 &lt;code&gt;blog&lt;/code&gt;；此时，上传图片的网址类似于：&lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/blog/logo.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/blog/logo.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;网址后缀&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;可用于自定义图片版本。比如，在又拍中添加了名字为 &lt;code&gt;s&lt;/code&gt; 的版本表示缩略图，间隔标识符为 &lt;code&gt;!&lt;/code&gt;，则可以在 &lt;code&gt;网址后缀&lt;/code&gt; 中输入 &lt;code&gt;!s&lt;/code&gt;。这样之后每次上传图片生成的链接最后都会附上 &lt;code&gt;!s&lt;/code&gt;，也即表示缩略图。&lt;/li&gt;
+&lt;li&gt;如果你绑定了域名，可以使用绑定的域名。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至又拍的图片。&lt;/p&gt;
+&lt;p&gt;除了上述基本的设置，又拍图床还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/s7cym.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;和前文介绍的一致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;文件名前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;可简单理解为图床中的目录&lt;/li&gt;
+&lt;li&gt;例如，如果希望 iPic 上传的图片都位于 &lt;code&gt;blog&lt;/code&gt; 目录中，只要在这里输入 &lt;code&gt;blog&lt;/code&gt;，所有上传的图片则均位于 &lt;code&gt;blog&lt;/code&gt; 目录中，生成的图片链接类似于：&lt;em&gt;&lt;a href=&quot;http://ipic-test.b0.upaiyun.com/blog/pic.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipic-test.b0.upaiyun.com/blog/pic.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;自定义文件名&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;支持以下三种文件名&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;纯文件名&lt;/code&gt; 也即和上传时文件名相同，比如 &lt;code&gt;pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;日期-文件名&lt;/code&gt; 也即和之前的 iPic 相同，比如 &lt;code&gt;2016-06-16-pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;随机&lt;/code&gt; 比如 &lt;code&gt;jk8l1.jpg&lt;/code&gt;，可以大大缩短链接长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址后缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;可用于自定义图片版本。比如，在又拍中添加了名字为 &lt;code&gt;s&lt;/code&gt; 的版本表示缩略图，间隔标识符为 &lt;code&gt;-&lt;/code&gt;，则可以在 &lt;code&gt;网址后缀&lt;/code&gt; 中输入 &lt;code&gt;-s&lt;/code&gt;。这样之后每次上传图片生成的链接最后都会附上 &lt;code&gt;-s&lt;/code&gt;，也即表示缩略图。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
 &lt;h1 id=&quot;使用又拍云&quot;&gt;&lt;a href=&quot;#使用又拍云&quot; class=&quot;headerlink&quot; title=&quot;使用又拍云&quot;&gt;&lt;/a&gt;使用又拍云&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的又拍，之后上传的图片就会在又拍图床中。&lt;/p&gt;
 </content>
@@ -526,7 +541,7 @@
     <link href="http://toolinbox.net/iPic/AddQiniuImageHost.html"/>
     <id>http://toolinbox.net/iPic/AddQiniuImageHost.html</id>
     <published>2016-05-23T10:32:16.000Z</published>
-    <updated>2016-07-25T09:47:31.000Z</updated>
+    <updated>2016-09-01T04:08:31.000Z</updated>
     
     <content type="html">&lt;p&gt;七牛云是 iPic 在内测期间呼声比较高的国内图床，这里介绍下在 iPic 中添加七牛云的过程。&lt;/p&gt;
 &lt;h1 id=&quot;注册七牛账户&quot;&gt;&lt;a href=&quot;#注册七牛账户&quot; class=&quot;headerlink&quot; title=&quot;注册七牛账户&quot;&gt;&lt;/a&gt;注册七牛账户&lt;/h1&gt;&lt;p&gt;这点比较简单，直接到 &lt;a href=&quot;https://portal.qiniu.com/signup?code=3li7ht35vjxaq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt; 注册即可。&lt;/p&gt;
@@ -534,16 +549,13 @@
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;这里我创建一个 &lt;strong&gt;test&lt;/strong&gt; 资源。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h1 id=&quot;在-iPic-中添加七牛图床&quot;&gt;&lt;a href=&quot;#在-iPic-中添加七牛图床&quot; class=&quot;headerlink&quot; title=&quot;在 iPic 中添加七牛图床&quot;&gt;&lt;/a&gt;在 iPic 中添加七牛图床&lt;/h1&gt;&lt;p&gt;打开 &lt;code&gt;偏好设置&lt;/code&gt;，进入 &lt;code&gt;图床&lt;/code&gt; 页，选择添加 &lt;code&gt;七牛&lt;/code&gt;。以下分别介绍各项的意义及如何配置：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-22_2259221.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/0jfzb.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;名称&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;主要是方便自己区分多个图床，可以任意取名，比如 &lt;em&gt;我的七牛&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;资源&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;就是刚才创建的 &lt;em&gt;资源&lt;/em&gt;，这里即是 &lt;strong&gt;test&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;就是刚才创建的 &lt;em&gt;资源&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;AccessKey&lt;/strong&gt; 与 &lt;strong&gt;SecretKey&lt;/strong&gt;&lt;ul&gt;
@@ -556,23 +568,37 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;网址前缀&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;用于生成上传图片的完成 Http 路径&lt;/li&gt;
-&lt;li&gt;打开刚刚创建的 &lt;strong&gt;test&lt;/strong&gt; 资源，复制 &lt;strong&gt;测试域名&lt;/strong&gt; 中的域名至 iPic 的 Http 前缀中。要注意格式的完整，比如 &lt;em&gt;&lt;a href=&quot;http://o7entp---.bkt.clouddn.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://o7entp---.bkt.clouddn.com/&lt;/a&gt;&lt;/em&gt; 就是格式完整的 Http 前缀。&lt;/li&gt;
+&lt;li&gt;打开刚刚创建的资源，复制 &lt;strong&gt;测试域名&lt;/strong&gt; 中的域名至 iPic 的 Http 前缀中。比如，&lt;em&gt;&lt;a href=&quot;http://o7entp.bkt.clouddn.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://o7entp.bkt.clouddn.com&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2227311.png&quot; alt=&quot;2016-05-25_2227311.png&quot;&gt;&lt;/li&gt;
 &lt;li&gt;当然，如果你绑定了域名，就可以使用自己的域名。&lt;/li&gt;
-&lt;li&gt;另外，如果需要使用七牛的文件名前缀功能（也可理解为文件夹），只要在 Http 前缀最后附上文件名前缀即可。&lt;ul&gt;
-&lt;li&gt;比如，普通的 Http 前缀是：&lt;code&gt;http://o7entpabc.bkt.clouddn.com/&lt;/code&gt;；&lt;/li&gt;
-&lt;li&gt;添加 test 文件名前缀后即变为：&lt;code&gt;http://o7entpabc.bkt.clouddn.com/test/&lt;/code&gt;；&lt;/li&gt;
-&lt;li&gt;上传的图片链接类似于&lt;code&gt;http://o7entpabc.bkt.clouddn.com/test/screenshot.jpg&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传的图片。&lt;/p&gt;
+&lt;p&gt;除了上述基本的设置，七牛还支持几项高级设置。点击 &lt;code&gt;网址前缀&lt;/code&gt; 右侧的高级设置图标，即可弹出如下设置界面：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/5im7e.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;网址前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;和前文介绍的一致&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;网址后缀&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;文件名前缀&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;可简单理解为图床中的目录&lt;/li&gt;
+&lt;li&gt;例如，如果希望 iPic 上传的图片都位于 &lt;code&gt;blog&lt;/code&gt; 目录中，只要在这里输入 &lt;code&gt;blog&lt;/code&gt;，所有上传的图片则均位于 &lt;code&gt;blog&lt;/code&gt; 目录中，生成的图片链接类似于：&lt;em&gt;&lt;a href=&quot;http://o7entp.bkt.clouddn.com/blog/pic.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://o7entp.bkt.clouddn.com/blog/pic.jpg&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;自定义文件名&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;支持以下三种文件名&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;纯文件名&lt;/code&gt; 也即和上传时文件名相同，比如 &lt;code&gt;pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;日期-文件名&lt;/code&gt; 也即和之前的 iPic 相同，比如 &lt;code&gt;2016-06-16-pic.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;随机&lt;/code&gt; 比如 &lt;code&gt;jk8l1.jpg&lt;/code&gt;，可以大大缩短链接长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;网址后缀&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;可用于自定义图片样式。比如，在七牛中添加了名字为 &lt;code&gt;s&lt;/code&gt; 的样式表示缩略图，样式分隔符为 &lt;code&gt;-&lt;/code&gt;，则可以在 &lt;code&gt;网址后缀&lt;/code&gt; 中输入 &lt;code&gt;-s&lt;/code&gt;。这样之后每次上传图片生成的链接最后都会附上 &lt;code&gt;-s&lt;/code&gt;，也即表示缩略图。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;完成输入后，可以点击 &lt;strong&gt;验证&lt;/strong&gt; 按钮。如果输入没有问题，则右侧会出现 &lt;strong&gt;通过&lt;/strong&gt; 链接，点击后就可以看到测试时上传至七牛的图片。&lt;/p&gt;
 &lt;p&gt;最后，点击 &lt;strong&gt;应用&lt;/strong&gt; 按钮进行保存。&lt;/p&gt;
 &lt;h1 id=&quot;使用七牛&quot;&gt;&lt;a href=&quot;#使用七牛&quot; class=&quot;headerlink&quot; title=&quot;使用七牛&quot;&gt;&lt;/a&gt;使用七牛&lt;/h1&gt;&lt;p&gt;在 &lt;code&gt;iPic 菜单 &amp;gt; 图床&lt;/code&gt; 中选择刚刚添加的七牛，之后上传的图片就会在七牛图床中。&lt;/p&gt;
 &lt;p&gt;注：本文中的图就是通过上述方式先上传至七牛、再粘贴至 Markdown 编辑器中，确实很方便，大家试试吧。&lt;/p&gt;
@@ -586,7 +612,7 @@
 &lt;p&gt;登录七牛后，进入 &lt;a href=&quot;https://portal.qiniu.com/create&quot;&gt;&lt;strong&gt;添加资源&lt;/strong&gt;&lt;/a&gt; 页面，选择添加 &lt;strong&gt;对象存储&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2224101.jpg&quot; alt=&quot;2016-05-25_2224101.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;这里我创建一个 &lt;strong&gt;test&lt;/strong&gt; 资源。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/2016-05-25_2226441.jpg&quot; alt=&quot;2016-05-25_2226441.jpg&quot;&gt;&lt;/p&gt;
     
     </summary>
     

@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://toolinbox.net/iPic/AddUpYunImageHost.html</loc>
+    
+    <lastmod>2016-09-01T04:12:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
+    
+    <lastmod>2016-09-01T04:08:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://toolinbox.net/iPic/index.html</loc>
     
     <lastmod>2016-08-30T04:15:53.000Z</lastmod>
@@ -33,20 +47,6 @@
     <loc>http://toolinbox.net/iHostsChangeLog.html</loc>
     
     <lastmod>2016-08-15T00:02:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/iPic/AddQiniuImageHost.html</loc>
-    
-    <lastmod>2016-07-25T09:47:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/iPic/AddUpYunImageHost.html</loc>
-    
-    <lastmod>2016-06-22T15:34:47.000Z</lastmod>
     
   </url>
   
