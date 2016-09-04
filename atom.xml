@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-08-29T14:08:01.000Z</updated>
+  <updated>2016-09-04T23:15:50.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -14,6 +14,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图床神器 iPic 免费开放上传服务：iPicUploader</title>
+    <link href="http://toolinbox.net/iPic/iPicUploader.html"/>
+    <id>http://toolinbox.net/iPic/iPicUploader.html</id>
+    <published>2016-09-04T23:13:05.000Z</published>
+    <updated>2016-09-04T23:15:50.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;iPic-是什么？&quot;&gt;&lt;a href=&quot;#iPic-是什么？&quot; class=&quot;headerlink&quot; title=&quot;iPic 是什么？&quot;&gt;&lt;/a&gt;iPic 是什么？&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-28_AppIcon_256.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;图床神器 iPic 可自动上传图片、保存 Markdown 链接，给你前所未有的插图体验。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过拖拽上传图片&lt;/li&gt;
+&lt;li&gt;通过服务上传图片 [Command + U]&lt;/li&gt;
+&lt;li&gt;上传复制的图片 [Shift + Command + U]&lt;/li&gt;
+&lt;li&gt;支持微博、七牛、又拍、阿里云等图床&lt;/li&gt;
+&lt;li&gt;自动保存 Markdown 格式链接&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://toolinbox.net/iPic/&quot;&gt;操作视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/app/id1101244278?ls=1&amp;amp;mt=12&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载 iPic 试试&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;iPicUploader&quot;&gt;&lt;a href=&quot;#iPicUploader&quot; class=&quot;headerlink&quot; title=&quot;iPicUploader&quot;&gt;&lt;/a&gt;iPicUploader&lt;/h1&gt;&lt;p&gt;iPic 开放了自己的上传服务。&lt;/p&gt;
+&lt;p&gt;如果你的 App 也需要上传图片至图床，不需要自己开发，不需要费时费力接入各个图床，只需要调用 iPic 提供的上传服务即可。&lt;/p&gt;
+&lt;p&gt;这就是 &lt;strong&gt;iPicUploader&lt;/strong&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;iPicUploader-主要接口&quot;&gt;&lt;a href=&quot;#iPicUploader-主要接口&quot; class=&quot;headerlink&quot; title=&quot;iPicUploader 主要接口&quot;&gt;&lt;/a&gt;iPicUploader 主要接口&lt;/h2&gt;&lt;p&gt;只需几行代码，即可上传图片至七牛、又拍、阿里云等图床。&lt;/p&gt;
+&lt;figure class=&quot;highlight swift&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; imageFilePath = &lt;span class=&quot;string&quot;&gt;&quot;/Path/to/the/pic.jpg&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;iPic.uploadImage(imageFilePath, handler: &amp;#123; (imageLink, error) &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; imageLink = imageLink &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;// Image uploaded        &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125; &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; error = error &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;// Some error happened&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;iPicUploader-示例&quot;&gt;&lt;a href=&quot;#iPicUploader-示例&quot; class=&quot;headerlink&quot; title=&quot;iPicUploader 示例&quot;&gt;&lt;/a&gt;iPicUploader 示例&lt;/h2&gt;&lt;p&gt;iPicUploader 中还包含了一个全功能示例项目，让我们来看看它都支持哪些上传方式。&lt;/p&gt;
+&lt;h3 id=&quot;1-通过拖拽上传&quot;&gt;&lt;a href=&quot;#1-通过拖拽上传&quot; class=&quot;headerlink&quot; title=&quot;1. 通过拖拽上传&quot;&gt;&lt;/a&gt;1. 通过拖拽上传&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/t7n74.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;可以看出，iPicUploader 支持同时上传多张图片。&lt;/p&gt;
+&lt;h3 id=&quot;2-通过选择图片文件上传&quot;&gt;&lt;a href=&quot;#2-通过选择图片文件上传&quot; class=&quot;headerlink&quot; title=&quot;2. 通过选择图片文件上传&quot;&gt;&lt;/a&gt;2. 通过选择图片文件上传&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/puih7.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-通过复制粘贴上传&quot;&gt;&lt;a href=&quot;#3-通过复制粘贴上传&quot; class=&quot;headerlink&quot; title=&quot;3. 通过复制粘贴上传&quot;&gt;&lt;/a&gt;3. 通过复制粘贴上传&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://oaawbohq4.qnssl.com/blog/0pz7w.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;当然，除了复制图片文件，还可以复制其他 App （比如浏览器）中的图片来上传。&lt;/p&gt;
+&lt;h2 id=&quot;如何使用-iPicUploader&quot;&gt;&lt;a href=&quot;#如何使用-iPicUploader&quot; class=&quot;headerlink&quot; title=&quot;如何使用 iPicUploader&quot;&gt;&lt;/a&gt;如何使用 iPicUploader&lt;/h2&gt;&lt;p&gt;目前，iPicUploader 已经开源、并发布在 GitHub 中。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/toolinbox/iPicUploader&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;gt;&amp;gt;&amp;gt; 在 GitHub 中查看 iPicUploader &amp;lt;&amp;lt;&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;并且，iPicUploader 也已经上架 CocoaPods，只需在项目的 Podfile 中增加下面一行即可。&lt;/p&gt;
+&lt;figure class=&quot;highlight ruby&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pod &lt;span class=&quot;string&quot;&gt;&quot;iPicUploader&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;希望 iPicUploader 可以帮你创造更有意思的 App 😀&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;iPic-是什么？&quot;&gt;&lt;a href=&quot;#iPic-是什么？&quot; class=&quot;headerlink&quot; title=&quot;iPic 是什么？&quot;&gt;&lt;/a&gt;iPic 是什么？&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://p.appsites.io/blog/2016-06-28_AppIcon_256.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;图床神器 iPic 可自动上传图片、保存 Markdown 链接，给你前所未有的插图体验。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过拖拽上传图片&lt;/li&gt;
+&lt;li&gt;通过服务上传图片 [Command + U]&lt;/li&gt;
+&lt;li&gt;上传复制的图片 [Shift + Command + U]&lt;/li&gt;
+&lt;li&gt;支持微博、七牛、又拍、阿里云等图床&lt;/li&gt;
+&lt;li&gt;自动保存 Markdown 格式链接&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://toolinbox.net/iPic/&quot;&gt;操作视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/app/id1101244278?ls=1&amp;amp;mt=12&quot;&gt;下载 iPic 试试&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;iPicUploader&quot;&gt;&lt;a href=&quot;#iPicUploader&quot; class=&quot;headerlink&quot; title=&quot;iPicUploader&quot;&gt;&lt;/a&gt;iPicUploader&lt;/h1&gt;&lt;p&gt;iPic 开放了自己的上传服务。&lt;/p&gt;
+&lt;p&gt;如果你的 App 也需要上传图片至图床，不需要自己开发，不需要费时费力接入各个图床，只需要调用 iPic 提供的上传服务即可。&lt;/p&gt;
+&lt;p&gt;这就是 &lt;strong&gt;iPicUploader&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="iPic" scheme="http://toolinbox.net/categories/iPic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>在 iPic 中添加 Amazon S3 图床</title>
