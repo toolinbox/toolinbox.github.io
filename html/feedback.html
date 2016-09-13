@@ -21,6 +21,9 @@
 
 		var query = getQueryParams(document.location.search);
 		var lang = query.lang;
+		var app = query.app;
+		var version = query.version;
+
 		if (lang == 'cn') {
 			v_title = "反馈";
 			HS.beacon.config({
@@ -65,7 +68,12 @@
 		document.title = v_title;
 
 	    HS.beacon.ready(function() {
-		  this.open();
+			HS.beacon.identify({
+				App: app,
+				Version: version,
+			});
+
+			this.open();
 		});
 
 		$('html').on('click',function() {
