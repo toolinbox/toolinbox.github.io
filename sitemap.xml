@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://toolinbox.net/404.html</loc>
+    
+    <lastmod>2016-09-17T10:18:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://toolinbox.net/timer/index.html</loc>
     
     <lastmod>2016-09-17T10:15:04.000Z</lastmod>
@@ -124,13 +131,6 @@
     <loc>http://toolinbox.net/iHosts/iHostsSSPai.html</loc>
     
     <lastmod>2016-05-23T14:52:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/404.html</loc>
-    
-    <lastmod>2016-05-06T10:08:04.000Z</lastmod>
     
   </url>
   
