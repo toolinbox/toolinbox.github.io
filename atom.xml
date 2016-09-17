@@ -881,6 +881,58 @@
   </entry>
   
   <entry>
+    <title>iPaste 更新日志</title>
+    <link href="http://toolinbox.net/iPaste/ChangeLog.html"/>
+    <id>http://toolinbox.net/iPaste/ChangeLog.html</id>
+    <published>2015-11-22T10:32:16.000Z</published>
+    <updated>2016-09-17T10:02:02.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;v1-2-1&quot;&gt;&lt;a href=&quot;#v1-2-1&quot; class=&quot;headerlink&quot; title=&quot;v1.2.1&quot;&gt;&lt;/a&gt;v1.2.1&lt;/h1&gt;&lt;p&gt;2016/09/29&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;贴贴板更名为 &lt;strong&gt;iPaste&lt;/strong&gt;，并更新 Logo&lt;/li&gt;
+&lt;li&gt;增加剪切板历史数量&lt;/li&gt;
+&lt;li&gt;退出时保存剪切板历史&lt;/li&gt;
+&lt;li&gt;多次连续复制，不产生重复记录&lt;/li&gt;
+&lt;li&gt;可隐藏菜单栏图标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;v0-8-2&quot;&gt;&lt;a href=&quot;#v0-8-2&quot; class=&quot;headerlink&quot; title=&quot;v0.8.2&quot;&gt;&lt;/a&gt;v0.8.2&lt;/h1&gt;&lt;p&gt;2015/12/18&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;钉住常用的剪贴板历史&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;v0-7-0&quot;&gt;&lt;a href=&quot;#v0-7-0&quot; class=&quot;headerlink&quot; title=&quot;v0.7.0&quot;&gt;&lt;/a&gt;v0.7.0&lt;/h1&gt;&lt;p&gt;2015/12/07&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;问题修复与体验改进&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;v0-6-1&quot;&gt;&lt;a href=&quot;#v0-6-1&quot; class=&quot;headerlink&quot; title=&quot;v0.6.1&quot;&gt;&lt;/a&gt;v0.6.1&lt;/h1&gt;&lt;p&gt;2015/11/28&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;正式上架 Mac App Store&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;v1-2-1&quot;&gt;&lt;a href=&quot;#v1-2-1&quot; class=&quot;headerlink&quot; title=&quot;v1.2.1&quot;&gt;&lt;/a&gt;v1.2.1&lt;/h1&gt;&lt;p&gt;2016/09/29&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;贴贴板更名为 &lt;strong&gt;iPaste&lt;/strong&gt;，并更新 Logo&lt;/li&gt;
+&lt;li&gt;增加剪切板历史数量&lt;/li&gt;
+&lt;li&gt;退出时保存剪切板历史&lt;/li&gt;
+&lt;li&gt;多次连续复制，不产生重复记录&lt;/li&gt;
+&lt;li&gt;可隐藏菜单栏图标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;v0-8-2&quot;&gt;&lt;a href=&quot;#v0-8-2&quot; class=&quot;headerlink&quot; title=&quot;v0.8.2&quot;&gt;&lt;/a&gt;v0.8.2&lt;/h1&gt;&lt;p&gt;2015/12/18&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;钉住常用的剪贴板历史&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="iPaste" scheme="http://toolinbox.net/categories/iPaste/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>iHosts 更新日志</title>
     <link href="http://toolinbox.net/iHostsChangeLog.html"/>
     <id>http://toolinbox.net/iHostsChangeLog.html</id>

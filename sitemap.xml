@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://toolinbox.net/timer/index.html</loc>
+    
+    <lastmod>2016-09-17T10:15:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/iHosts/index.html</loc>
+    
+    <lastmod>2016-09-17T10:14:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/iPaste/index.html</loc>
+    
+    <lastmod>2016-09-17T10:14:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toolinbox.net/iPaste/ChangeLog.html</loc>
+    
+    <lastmod>2016-09-17T10:02:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://toolinbox.net/iPic/iPicUploader.html</loc>
     
     <lastmod>2016-09-04T23:15:50.000Z</lastmod>
@@ -96,27 +124,6 @@
     <loc>http://toolinbox.net/iHosts/iHostsSSPai.html</loc>
     
     <lastmod>2016-05-23T14:52:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/clip/index.html</loc>
-    
-    <lastmod>2016-05-07T13:36:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/timer/index.html</loc>
-    
-    <lastmod>2016-05-07T13:34:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toolinbox.net/iHosts/index.html</loc>
-    
-    <lastmod>2016-05-07T13:34:43.000Z</lastmod>
     
   </url>
   
