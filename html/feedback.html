@@ -23,6 +23,7 @@
 		var lang = query.lang;
 		var app = query.app;
 		var version = query.version;
+		var os = query.os;
 
 		if (lang == 'cn' || lang == 'zh-Hans' || lang == 'zh-Hans-CN') {
 			v_title = "反馈";
@@ -72,6 +73,7 @@
 				App: app,
 				Version: version,
 				Language: lang,
+				OS: os,
 			});
 
 			this.open();
