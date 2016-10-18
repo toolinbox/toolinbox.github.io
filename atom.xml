@@ -687,9 +687,16 @@
     <link href="http://toolinbox.net/iPic/ChangeLog.html"/>
     <id>http://toolinbox.net/iPic/ChangeLog.html</id>
     <published>2016-05-22T10:32:16.000Z</published>
-    <updated>2016-08-29T14:13:50.000Z</updated>
+    <updated>2016-10-18T04:31:44.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;v1-2-0&quot;&gt;&lt;a href=&quot;#v1-2-0&quot; class=&quot;headerlink&quot; title=&quot;v1.2.0&quot;&gt;&lt;/a&gt;v1.2.0&lt;/h1&gt;&lt;p&gt;2016/08/29&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;v1-3-1&quot;&gt;&lt;a href=&quot;#v1-3-1&quot; class=&quot;headerlink&quot; title=&quot;v1.3.1&quot;&gt;&lt;/a&gt;v1.3.1&lt;/h1&gt;&lt;p&gt;2016/10/18&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;七牛支持华南、北美节点&lt;/li&gt;
+&lt;li&gt;可以复制图床&lt;/li&gt;
+&lt;li&gt;支持 &lt;a href=&quot;https://github.com/toolinbox/iPicUploader&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iPicUploader&lt;/a&gt; 上传服务&lt;/li&gt;
+&lt;li&gt;适配 Swift 3.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;v1-2-0&quot;&gt;&lt;a href=&quot;#v1-2-0&quot; class=&quot;headerlink&quot; title=&quot;v1.2.0&quot;&gt;&lt;/a&gt;v1.2.0&lt;/h1&gt;&lt;p&gt;2016/08/29&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新增 &lt;a href=&quot;https://aws.amazon.com/s3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Amazon S3&lt;/a&gt; 图床&lt;/li&gt;
 &lt;li&gt;修复 Bug&lt;ul&gt;
@@ -766,7 +773,14 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;v1-2-0&quot;&gt;&lt;a href=&quot;#v1-2-0&quot; class=&quot;headerlink&quot; title=&quot;v1.2.0&quot;&gt;&lt;/a&gt;v1.2.0&lt;/h1&gt;&lt;p&gt;2016/08/29&lt;/p&gt;
+      &lt;h1 id=&quot;v1-3-1&quot;&gt;&lt;a href=&quot;#v1-3-1&quot; class=&quot;headerlink&quot; title=&quot;v1.3.1&quot;&gt;&lt;/a&gt;v1.3.1&lt;/h1&gt;&lt;p&gt;2016/10/18&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;七牛支持华南、北美节点&lt;/li&gt;
+&lt;li&gt;可以复制图床&lt;/li&gt;
+&lt;li&gt;支持 &lt;a href=&quot;https://github.com/toolinbox/iPicUploader&quot;&gt;iPicUploader&lt;/a&gt; 上传服务&lt;/li&gt;
+&lt;li&gt;适配 Swift 3.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;v1-2-0&quot;&gt;&lt;a href=&quot;#v1-2-0&quot; class=&quot;headerlink&quot; title=&quot;v1.2.0&quot;&gt;&lt;/a&gt;v1.2.0&lt;/h1&gt;&lt;p&gt;2016/08/29&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新增 &lt;a href=&quot;https://aws.amazon.com/s3/&quot;&gt;Amazon S3&lt;/a&gt; 图床&lt;/li&gt;
 &lt;li&gt;修复 Bug&lt;ul&gt;
