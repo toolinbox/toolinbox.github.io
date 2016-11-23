@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toolinbox.net/"/>
-  <updated>2016-09-17T10:25:41.000Z</updated>
+  <updated>2016-11-23T02:49:31.000Z</updated>
   <id>http://toolinbox.net/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora: 首个集成 iPic 上传服务的 Markdown 编辑器</title>
+    <link href="http://toolinbox.net/iPic/iPicUploader_Typora.html"/>
+    <id>http://toolinbox.net/iPic/iPicUploader_Typora.html</id>
+    <published>2016-11-23T02:47:29.000Z</published>
+    <updated>2016-11-23T02:49:31.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/65e4f1e6gw1f9yveec8a2j20rs0dw751.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;有了 &lt;a href=&quot;toolinbox.net/iPic/&quot;&gt;iPic&lt;/a&gt; 的加持，&lt;a href=&quot;http://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typora&lt;/a&gt; 也可以很方便地在 Markdown 中插图：&lt;/p&gt;
+&lt;h1 id=&quot;一键上传本地图片&quot;&gt;&lt;a href=&quot;#一键上传本地图片&quot; class=&quot;headerlink&quot; title=&quot;一键上传本地图片&quot;&gt;&lt;/a&gt;一键上传本地图片&lt;/h1&gt;&lt;p&gt;如果已经在 Markdown 中使用的本地图片、需要将其上传至图床，只要一键：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/65e4f1e6gw1f9yve3ycosg20ha0c0k3l.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;插入图片时自动上传至图床&quot;&gt;&lt;a href=&quot;#插入图片时自动上传至图床&quot; class=&quot;headerlink&quot; title=&quot;插入图片时自动上传至图床&quot;&gt;&lt;/a&gt;插入图片时自动上传至图床&lt;/h1&gt;&lt;p&gt;如果在开启此选择，则在插入本地图片时，自动上传至图床、并替换图床链接。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/65e4f1e6gw1f9yve97z9pg20hm0bsnbg.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;iPicUploader&quot;&gt;&lt;a href=&quot;#iPicUploader&quot; class=&quot;headerlink&quot; title=&quot;iPicUploader&quot;&gt;&lt;/a&gt;iPicUploader&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://toolinbox.net/iPic/iPicUploader.html&quot;&gt;前情回顾&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图床神器 iPic 可自动上传图片、保存 Markdown 链接，给你前所未有的插图体验。同时，iPic 开放了自己的上传服务：如果你的 App 也需要上传图片至图床，不需要费时费力接入各个图床，只需要调用 iPic 提供的上传服务即可。&lt;/p&gt;
+&lt;p&gt;这就是 &lt;strong&gt;iPicUploader&lt;/strong&gt; 目前，iPicUploader 已经开源、并发布在 GitHub 中。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/toolinbox/iPicUploader&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&amp;gt;&amp;gt;&amp;gt; 在 GitHub 中查看 iPicUploader &amp;lt;&amp;lt;&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Typora 则是首个接入 iPicUploader 的知名 Markdown 编辑器。&lt;/p&gt;
+&lt;p&gt;如果你希望 iPic 集成到你现在用的 Markdown 编辑器中，可以联系我、或 Markdown 编辑器的作者，希望 iPic 能让大家更方便地在 Markdown 中插入图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/large/006y8lVagw1f8wihcq5mgj303k03k0sp.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/65e4f1e6gw1f9yveec8a2j20rs0dw751.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;有了 &lt;a href=&quot;toolinbox.net/iPic/&quot;&gt;iPic&lt;/a&gt; 的加持，
+    
+    </summary>
+    
+      <category term="iPic" scheme="http://toolinbox.net/categories/iPic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>图床神器 iPic 免费开放上传服务：iPicUploader</title>
